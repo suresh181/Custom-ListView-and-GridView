@@ -71,6 +71,7 @@ class GridFragment : Fragment() {
                 intent.putExtra("name",name)
                 intent.putExtra("image",image)
                 startActivity(intent)
+                alert.dismiss()
             }
             viewLay.setOnClickListener {
                 alert.dismiss()
